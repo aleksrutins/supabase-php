@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Supabase\\": "src/",
+            "Supabase\\Functions\\": "modules/functions/",
+            "Supabase\\Gotrue\\": "modules/gotrue/",
+            "Postgrest\\": "modules/postgrest/",
+            "Supabase\\Realtime\\": "modules/realtime/",
+            "Supabase\\Storage\\": "modules/storage/"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.14"
+    }
+}
